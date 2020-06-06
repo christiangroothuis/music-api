@@ -14,7 +14,7 @@ const app: Application = express();
 // import search from './routes/';
 
 mongoose
-	.connect(process.env.DB_CONNECTION || "", {
+	.connect(process.env.MONGO_URI || "", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useCreateIndex: true,
