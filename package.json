@@ -1,5 +1,5 @@
 {
-  "name": "tsnode",
+  "name": "music-api",
   "version": "1.0.0",
   "description": "An API that serves album and artist data for the music-client",
   "main": "index.js",
