@@ -1,0 +1,1225 @@
+[{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc45c"
+  },
+  "color": "#323232",
+  "type": "artist",
+  "name": "2 Chainz",
+  "img": "https://music.christiangroothuis.nl/assets/artists/2%20Chainz/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae30389147884dcbc45b"
+  },
+  "color": "#b4aeae",
+  "type": "artist",
+  "name": "21 Savage",
+  "img": "https://music.christiangroothuis.nl/assets/artists/21%20Savage/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc45d"
+  },
+  "color": "#0a3564",
+  "type": "artist",
+  "name": "1TakeJay",
+  "img": "https://music.christiangroothuis.nl/assets/artists/1TakeJay/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc45e"
+  },
+  "color": "#d4b18a",
+  "type": "artist",
+  "name": "88GLAM",
+  "img": "https://music.christiangroothuis.nl/assets/artists/88GLAM/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc45f"
+  },
+  "color": "#e1e1e1",
+  "type": "artist",
+  "name": "A$AP Ferg",
+  "img": "https://music.christiangroothuis.nl/assets/artists/A$AP%20Ferg/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc460"
+  },
+  "color": "#90452c",
+  "type": "artist",
+  "name": "A Boogie wit da Hoodie",
+  "img": "https://music.christiangroothuis.nl/assets/artists/A%20Boogie%20wit%20da%20Hoodie/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc462"
+  },
+  "color": "#d3d7de",
+  "type": "artist",
+  "name": "6ix9ine",
+  "img": "https://music.christiangroothuis.nl/assets/artists/6ix9ine/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc461"
+  },
+  "color": "#3d4145",
+  "type": "artist",
+  "name": "A$AP Rocky",
+  "img": "https://music.christiangroothuis.nl/assets/artists/A$AP%20Rocky/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc463"
+  },
+  "color": "#e3c732",
+  "type": "artist",
+  "name": "Amine",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Amine/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc464"
+  },
+  "color": "#150b07",
+  "type": "artist",
+  "name": "Anuel AA",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Anuel%20AA/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc465"
+  },
+  "color": "#f9d008",
+  "type": "artist",
+  "name": "Bantu",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Bantu/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc467"
+  },
+  "color": "#ebebeb",
+  "type": "artist",
+  "name": "Azealia Banks",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Azealia%20Banks/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc466"
+  },
+  "color": "#cdb3a2",
+  "type": "artist",
+  "name": "Aitch",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Aitch/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc468"
+  },
+  "color": "#d2c2b5",
+  "type": "artist",
+  "name": "Ashanti",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ashanti/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc469"
+  },
+  "color": "#171819",
+  "type": "artist",
+  "name": "Black Caviar",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Black%20Caviar/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46a"
+  },
+  "color": "#1c1c1c",
+  "type": "artist",
+  "name": "Beau Young Prince",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Beau%20Young%20Prince/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46b"
+  },
+  "color": "#1a1a1a",
+  "type": "artist",
+  "name": "Bobby Schmurda",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Bobby%20Schmurda/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46c"
+  },
+  "color": "#4f402e",
+  "type": "artist",
+  "name": "Big Sean",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Big%20Sean/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46d"
+  },
+  "color": "#765c37",
+  "type": "artist",
+  "name": "Bon Iver",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Bon%20Iver/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46e"
+  },
+  "color": "#2c1c13",
+  "type": "artist",
+  "name": "Beyoncé",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Beyonc%C3%A9/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc46f"
+  },
+  "color": "#343d31",
+  "type": "artist",
+  "name": "Burna Boy",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Burna%20Boy/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc470"
+  },
+  "color": "#728ca8",
+  "type": "artist",
+  "name": "Chance The Rapper",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Chance%20The%20Rapper/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc471"
+  },
+  "color": "#161415",
+  "type": "artist",
+  "name": "Cardi B",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Cardi%20B/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc472"
+  },
+  "color": "#23283e",
+  "type": "artist",
+  "name": "Charlie Wilson",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Charlie%20Wilson/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc473"
+  },
+  "color": "#ece8ee",
+  "type": "artist",
+  "name": "Chris Brown",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Chris%20Brown/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc474"
+  },
+  "color": "#705647",
+  "type": "artist",
+  "name": "Childish Gambino",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Childish%20Gambino/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc475"
+  },
+  "color": "#ece8ec",
+  "type": "artist",
+  "name": "Coi Leray",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Coi%20Leray/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc476"
+  },
+  "color": "#edeef6",
+  "type": "artist",
+  "name": "DJ SpinKing",
+  "img": "https://music.christiangroothuis.nl/assets/artists/DJ%20SpinKing/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc477"
+  },
+  "color": "#d7bcb1",
+  "type": "artist",
+  "name": "DaBaby",
+  "img": "https://music.christiangroothuis.nl/assets/artists/DaBaby/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc478"
+  },
+  "color": "#d7d7d7",
+  "type": "artist",
+  "name": "Denzel Curry",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Denzel%20Curry/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc479"
+  },
+  "color": "#c2bcbf",
+  "type": "artist",
+  "name": "Doeboy",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Doeboy/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47a"
+  },
+  "color": "#dfc882",
+  "type": "artist",
+  "name": "DJ Khalil",
+  "img": "https://music.christiangroothuis.nl/assets/artists/DJ%20Khalil/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47b"
+  },
+  "color": "#141608",
+  "type": "artist",
+  "name": "Drake",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Drake/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47c"
+  },
+  "color": "#091b1b",
+  "type": "artist",
+  "name": "Don Q",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Don%20Q/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47d"
+  },
+  "color": "#1f1b1c",
+  "type": "artist",
+  "name": "Ed Sheeran",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ed%20Sheeran/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47e"
+  },
+  "color": "#c6ccc8",
+  "type": "artist",
+  "name": "Duckwrth",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Duckwrth/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc47f"
+  },
+  "color": "#786d70",
+  "type": "artist",
+  "name": "Blackway",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Blackway/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc480"
+  },
+  "color": "#341e1f",
+  "type": "artist",
+  "name": "BoodahDARR",
+  "img": "https://music.christiangroothuis.nl/assets/artists/BoodahDARR/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc481"
+  },
+  "color": "#1d1d1d",
+  "type": "artist",
+  "name": "G-Eazy",
+  "img": "https://music.christiangroothuis.nl/assets/artists/G-Eazy/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc482"
+  },
+  "color": "#a4a4a4",
+  "type": "artist",
+  "name": "Future",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Future/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc483"
+  },
+  "color": "#dbd2d7",
+  "type": "artist",
+  "name": "Gucci Mane",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Gucci%20Mane/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc484"
+  },
+  "color": "#302420",
+  "type": "artist",
+  "name": "Ella Mai",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ella%20Mai/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc485"
+  },
+  "color": "#1b181a",
+  "type": "artist",
+  "name": "H.E.R.",
+  "img": "https://music.christiangroothuis.nl/assets/artists/H.E.R./avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc486"
+  },
+  "color": "#ededed",
+  "type": "artist",
+  "name": "IshDARR",
+  "img": "https://music.christiangroothuis.nl/assets/artists/IshDARR/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc487"
+  },
+  "color": "#ccd4de",
+  "type": "artist",
+  "name": "Gunna",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Gunna/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc488"
+  },
+  "color": "#1e1e1e",
+  "type": "artist",
+  "name": "Headie One",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Headie%20One/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc489"
+  },
+  "color": "#212121",
+  "type": "artist",
+  "name": "JAY-Z",
+  "img": "https://music.christiangroothuis.nl/assets/artists/JAY-Z/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48a"
+  },
+  "color": "#202020",
+  "type": "artist",
+  "name": "J Hus",
+  "img": "https://music.christiangroothuis.nl/assets/artists/J%20Hus/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48b"
+  },
+  "color": "#1c1512",
+  "type": "artist",
+  "name": "J. Cole",
+  "img": "https://music.christiangroothuis.nl/assets/artists/J.%20Cole/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48c"
+  },
+  "color": "#c9a18d",
+  "type": "artist",
+  "name": "Jeezy",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Jeezy/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48d"
+  },
+  "color": "#1e1d1e",
+  "type": "artist",
+  "name": "Jacquees",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Jacquees/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48e"
+  },
+  "color": "#c6e66a",
+  "type": "artist",
+  "name": "JetsonMade",
+  "img": "https://music.christiangroothuis.nl/assets/artists/JetsonMade/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc48f"
+  },
+  "color": "#d4a592",
+  "type": "artist",
+  "name": "Jaden Smith",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Jaden%20Smith/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc490"
+  },
+  "color": "#d7b297",
+  "type": "artist",
+  "name": "Jhene Aiko",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Jhene%20Aiko/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc491"
+  },
+  "color": "#e2d9d3",
+  "type": "artist",
+  "name": "Jeremih",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Jeremih/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc492"
+  },
+  "color": "#171717",
+  "type": "artist",
+  "name": "John Legend",
+  "img": "https://music.christiangroothuis.nl/assets/artists/John%20Legend/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc493"
+  },
+  "color": "#332623",
+  "type": "artist",
+  "name": "Kodak Black",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Kodak%20Black/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc494"
+  },
+  "color": "#40413f",
+  "type": "artist",
+  "name": "Kanye West",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Kanye%20West/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc495"
+  },
+  "color": "#121211",
+  "type": "artist",
+  "name": "Kid Cudi",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Kid%20Cudi/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc496"
+  },
+  "color": "#333333",
+  "type": "artist",
+  "name": "Juice WRLD",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Juice%20WRLD/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc497"
+  },
+  "color": "#58040c",
+  "type": "artist",
+  "name": "Leven Kali",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Leven%20Kali/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc498"
+  },
+  "color": "#bd957a",
+  "type": "artist",
+  "name": "Koffee",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Koffee/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc499"
+  },
+  "color": "#b1aaa9",
+  "type": "artist",
+  "name": "Lil Durk",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Durk/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49a"
+  },
+  "color": "#e3b2b5",
+  "type": "artist",
+  "name": "Lil Keed",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Keed/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49b"
+  },
+  "color": "#bd837c",
+  "type": "artist",
+  "name": "Lil Pump",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Pump/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49c"
+  },
+  "color": "#586f81",
+  "type": "artist",
+  "name": "Lil Quee",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Quee/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49d"
+  },
+  "color": "#e36e91",
+  "type": "artist",
+  "name": "Lil Uzi Vert",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Uzi%20Vert/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49e"
+  },
+  "color": "#c3959a",
+  "type": "artist",
+  "name": "Fabolous",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Fabolous/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc49f"
+  },
+  "color": "#ab7258",
+  "type": "artist",
+  "name": "Lil Baby",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Baby/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a0"
+  },
+  "color": "#ebca66",
+  "type": "artist",
+  "name": "Lil Tecca",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Tecca/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a1"
+  },
+  "color": "#051310",
+  "type": "artist",
+  "name": "Lil Duke",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Duke/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a2"
+  },
+  "color": "#b7b4b2",
+  "type": "artist",
+  "name": "Lil Yachty",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Yachty/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a3"
+  },
+  "color": "#3f3837",
+  "type": "artist",
+  "name": "Lil Wayne",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Lil%20Wayne/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a4"
+  },
+  "color": "#9c9d9f",
+  "type": "artist",
+  "name": "LouGotCash",
+  "img": "https://music.christiangroothuis.nl/assets/artists/LouGotCash/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a5"
+  },
+  "color": "#272727",
+  "type": "artist",
+  "name": "Meek Mill",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Meek%20Mill/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a6"
+  },
+  "color": "#1772b2",
+  "type": "artist",
+  "name": "London On Da Track",
+  "img": "https://music.christiangroothuis.nl/assets/artists/London%20On%20Da%20Track/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a7"
+  },
+  "color": "#0f1f30",
+  "type": "artist",
+  "name": "Megan Thee Stallion",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Megan%20Thee%20Stallion/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a8"
+  },
+  "color": "#1d1c20",
+  "type": "artist",
+  "name": "Migos",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Migos/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4a9"
+  },
+  "color": "#7e312c",
+  "type": "artist",
+  "name": "Melii",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Melii/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4aa"
+  },
+  "color": "#c6b7b4",
+  "type": "artist",
+  "name": "Mustard",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Mustard/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ab"
+  },
+  "color": "#c4babf",
+  "type": "artist",
+  "name": "NAV",
+  "img": "https://music.christiangroothuis.nl/assets/artists/NAV/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ac"
+  },
+  "color": "#b7bdb8",
+  "type": "artist",
+  "name": "Nicki Minaj",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Nicki%20Minaj/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ad"
+  },
+  "color": "#c6cdcd",
+  "type": "artist",
+  "name": "Moneybagg Yo",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Moneybagg%20Yo/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ae"
+  },
+  "color": "#b2c2c0",
+  "type": "artist",
+  "name": "Nipsey Hussle",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Nipsey%20Hussle/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4af"
+  },
+  "color": "#d4935e",
+  "type": "artist",
+  "name": "Offset",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Offset/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b0"
+  },
+  "color": "#4e839d",
+  "type": "artist",
+  "name": "Michael Jackson",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Michael%20Jackson/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b1"
+  },
+  "color": "#2276a7",
+  "type": "artist",
+  "name": "Oliver Tree",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Oliver%20Tree/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b2"
+  },
+  "color": "#1e1e1e",
+  "type": "artist",
+  "name": "Playboi Carti",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Playboi%20Carti/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b3"
+  },
+  "color": "#bec2c2",
+  "type": "artist",
+  "name": "PnB Rock",
+  "img": "https://music.christiangroothuis.nl/assets/artists/PnB%20Rock/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b5"
+  },
+  "color": "#a9b4b6",
+  "type": "artist",
+  "name": "Pusha T",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Pusha%20T/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b4"
+  },
+  "color": "#080808",
+  "type": "artist",
+  "name": "Ozzy Osbourne",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ozzy%20Osbourne/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b7"
+  },
+  "color": "#d0c3b8",
+  "type": "artist",
+  "name": "Quavo",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Quavo/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b8"
+  },
+  "color": "#333030",
+  "type": "artist",
+  "name": "Quando Rondo",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Quando%20Rondo/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b6"
+  },
+  "color": "#2d272b",
+  "type": "artist",
+  "name": "Post Malone",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Post%20Malone/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4b9"
+  },
+  "color": "#ededed",
+  "type": "artist",
+  "name": "Roddy Ricch",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Roddy%20Ricch/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ba"
+  },
+  "color": "#2d2220",
+  "type": "artist",
+  "name": "Raekwon",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Raekwon/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4bb"
+  },
+  "color": "#74788d",
+  "type": "artist",
+  "name": "Queen Naija",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Queen%20Naija/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4bc"
+  },
+  "color": "#0f0e0e",
+  "type": "artist",
+  "name": "Rick Ross",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Rick%20Ross/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4bd"
+  },
+  "color": "#ef6f50",
+  "type": "artist",
+  "name": "SZA",
+  "img": "https://music.christiangroothuis.nl/assets/artists/SZA/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4be"
+  },
+  "color": "#c57550",
+  "type": "artist",
+  "name": "Ski Mask the Slump God",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ski%20Mask%20the%20Slump%20God/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4bf"
+  },
+  "color": "#32201e",
+  "type": "artist",
+  "name": "Shaboozey",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Shaboozey/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c1"
+  },
+  "color": "#cd8331",
+  "type": "artist",
+  "name": "Seezyn",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Seezyn/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c0"
+  },
+  "color": "#1c2923",
+  "type": "artist",
+  "name": "Stormzy",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Stormzy/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c2"
+  },
+  "color": "#408ad6",
+  "type": "artist",
+  "name": "Swavay",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Swavay/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c3"
+  },
+  "color": "#28140f",
+  "type": "artist",
+  "name": "Static Major",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Static%20Major/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c4"
+  },
+  "color": "#d8e1ee",
+  "type": "artist",
+  "name": "Swae Lee",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Swae%20Lee/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c5"
+  },
+  "color": "#e0ddde",
+  "type": "artist",
+  "name": "Murda Beetz",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Murda%20Beetz/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c6"
+  },
+  "color": "#ace0e9",
+  "type": "artist",
+  "name": "Tame Impala",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Tame%20Impala/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c7"
+  },
+  "color": "#1c1818",
+  "type": "artist",
+  "name": "Tee Grizzley",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Tee%20Grizzley/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c8"
+  },
+  "color": "#cc2807",
+  "type": "artist",
+  "name": "The Weeknd",
+  "img": "https://music.christiangroothuis.nl/assets/artists/The%20Weeknd/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4c9"
+  },
+  "color": "#1a1a1a",
+  "type": "artist",
+  "name": "Swizz Beatz",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Swizz%20Beatz/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ca"
+  },
+  "color": "#e7dde1",
+  "type": "artist",
+  "name": "Thutmose",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Thutmose/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4cb"
+  },
+  "color": "#1d1914",
+  "type": "artist",
+  "name": "Tiana Major9",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Tiana%20Major9/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4cc"
+  },
+  "color": "#f30504",
+  "type": "artist",
+  "name": "Tory Lanez",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Tory%20Lanez/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4cd"
+  },
+  "color": "#615c8e",
+  "type": "artist",
+  "name": "Travis Scott",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Travis%20Scott/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4ce"
+  },
+  "color": "#c69982",
+  "type": "artist",
+  "name": "Trap Manny",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Trap%20Manny/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4cf"
+  },
+  "color": "#bca18a",
+  "type": "artist",
+  "name": "Trife Drew",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Trife%20Drew/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d0"
+  },
+  "color": "#c7dae1",
+  "type": "artist",
+  "name": "Ty Dolla $ign",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Ty%20Dolla%20$ign/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d1"
+  },
+  "color": "#2e2321",
+  "type": "artist",
+  "name": "Vince Staples",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Vince%20Staples/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d2"
+  },
+  "color": "#81add6",
+  "type": "artist",
+  "name": "Tyga",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Tyga/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d3"
+  },
+  "color": "#999188",
+  "type": "artist",
+  "name": "Xxxtentacion",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Xxxtentacion/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d4"
+  },
+  "color": "#cebb9a",
+  "type": "artist",
+  "name": "Whethan",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Whethan/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d5"
+  },
+  "color": "#dfddd0",
+  "type": "artist",
+  "name": "YBN Cordae",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YBN%20Cordae/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d6"
+  },
+  "color": "#e09c26",
+  "type": "artist",
+  "name": "YEBBA",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YEBBA/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d7"
+  },
+  "color": "#d4c3b9",
+  "type": "artist",
+  "name": "YG",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YG/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d8"
+  },
+  "color": "#181921",
+  "type": "artist",
+  "name": "YFN Lucci",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YFN%20Lucci/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4d9"
+  },
+  "color": "#090806",
+  "type": "artist",
+  "name": "Young Scooter",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Young%20Scooter/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4da"
+  },
+  "color": "#d3d2c7",
+  "type": "artist",
+  "name": "YNW Melly",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YNW%20Melly/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4db"
+  },
+  "color": "#d5d5d5",
+  "type": "artist",
+  "name": "The Smiths",
+  "img": "https://music.christiangroothuis.nl/assets/artists/The%20Smiths/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4dc"
+  },
+  "color": "#27211f",
+  "type": "artist",
+  "name": "YoungBoy Never Broke Again",
+  "img": "https://music.christiangroothuis.nl/assets/artists/YoungBoy%20Never%20Broke%20Again/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4dd"
+  },
+  "color": "#6ca3d2",
+  "type": "artist",
+  "name": "The RZA",
+  "img": "https://music.christiangroothuis.nl/assets/artists/The%20RZA/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4de"
+  },
+  "color": "#cabeb2",
+  "type": "artist",
+  "name": "Young Thug",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Young%20Thug/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae31389147884dcbc4df"
+  },
+  "color": "#434f3f",
+  "type": "artist",
+  "name": "Yung Bans",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Yung%20Bans/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae3b389147884dcbc53d"
+  },
+  "color": "#535353",
+  "type": "artist",
+  "name": "Prynce Cy Hi",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Prynce%20Cy%20Hi/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae3b389147884dcbc558"
+  },
+  "color": "#535353",
+  "type": "artist",
+  "name": "Trevor Rich",
+  "img": "https://music.christiangroothuis.nl/assets/artists/Trevor%20Rich/avatarImage.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ec1ae3b389147884dcbc567"
+  },
+  "color": "#535353",
+  "type": "artist",
+  "name": "iceè tgm",
+  "img": "https://music.christiangroothuis.nl/assets/artists/ice%C3%A8%20tgm/avatarImage.jpg",
+  "__v": 0
+}]
