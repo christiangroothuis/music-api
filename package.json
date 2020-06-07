@@ -1,7 +1,7 @@
 {
   "name": "tsnode",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API that serves album and artist data for the music-client",
   "main": "index.js",
   "scripts": {
     "start": "node dist/server.js",
@@ -9,8 +9,8 @@
     "build": "tsc -p ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Christian Groothuis",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
