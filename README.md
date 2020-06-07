@@ -9,7 +9,7 @@ A REST API written in TypeScript that delivers artist and album data for the [mu
 - `/artists` - Returns all artists
 - `/artist/{artistId}` - Returns info about the artist, their albums and the albums they featured on
 
-Currently, a live version of the API is hosted on my Raspberry Pi which be found [here](https://music.christiangroothuis.nl/api/home).
+Currently, a live version of the API is hosted on my Raspberry Pi, which can be found [here](https://music.christiangroothuis.nl/api/home).
 
 I gathered the data using a script that 
 1. Goes through all the album files and finds all the artists in their song's metadata and creates a folder for each of them
