@@ -1,5 +1,5 @@
 import express from "express";
-// import checkAuth from "../middleware/check-auth";
+import checkAuth from "../middleware/check-auth";
 
 import * as AlbumsController from "../controllers/albums";
 
