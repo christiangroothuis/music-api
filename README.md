@@ -4,7 +4,7 @@ A REST API written in TypeScript that delivers artist and album data for the [mu
 ### Endpoints
 - `/home` - Returns 10 random albums and 10 random artists to display as featured on the home page of music-client
 - `/search/{query}` - Returns the search results of the given query
-- `/albums` - Returns a list of all album names with their corresponding artist
+- `/albums` - Returns all albums
 - `/albums/{albumId}` - Returns info about the album and its tracks
 - `/artists` - Returns all artists
 - `/artists/{artistId}` - Returns info about the artist, their albums and the albums they featured on
