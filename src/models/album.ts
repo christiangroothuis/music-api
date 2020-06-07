@@ -37,6 +37,4 @@ const AlbumSchema = new mongoose.Schema({
 	],
 });
 
-const AlbumModel = mongoose.model("Album", AlbumSchema);
-
-export { AlbumModel };
+export default mongoose.model("Album", AlbumSchema);
