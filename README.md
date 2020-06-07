@@ -1,5 +1,5 @@
 # Music API
-A REST API that delivers artist and album data for the [music-client](https://github.com/JuanGrooth/music-client).
+A REST API written in TypeScript that delivers artist and album data for the [music-client](https://github.com/JuanGrooth/music-client).
 
 ### Endpoints
 - `/home` - Returns 10 random albums and 10 random artists to display as featured on the home page of music-client
