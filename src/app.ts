@@ -10,11 +10,11 @@ import { notFoundHandler } from "./middleware/notFound.middleware";
 
 const app: Application = express();
 
-import albums from './routes/albums';
-import artists from './routes/artists';
+import albums from "./routes/albums";
+import artists from "./routes/artists";
 
 mongoose
-	.connect(process.env.MONGO_URI || "", {
+	.connect(process.env.MONGO_URI!, {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useCreateIndex: true,
@@ -30,8 +30,8 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use('/albums', albums);
-app.use('/artists', artists);
+app.use("/albums", albums);
+app.use("/artists", artists);
 
 app.use(errorHandler);
 app.use(notFoundHandler);
