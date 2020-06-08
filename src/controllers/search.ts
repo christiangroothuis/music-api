@@ -79,6 +79,28 @@ const searchAlbums = (query: string) =>
 			.catch((err) => reject(err));
 	});
 
+const searchSongs = (query: RegExp) =>
+	new Promise((resolve, reject) => {
+		Album.find({ "tracks.name": { $regex: query } }, { "tracks.$": 1 })
+			.limit(15)
+			.populate("tracks.artists", "name")
+			.select("img")
+			.then((docs) => {
+				resolve(
+					docs.map((item: any) => {
+						const track = item.tracks[0];
+						return {
+							_id: item._id,
+							img: item.img,
+							name: track.name,
+							artist: track.artists,
+						};
+					})
+				);
+			})
+			.catch((err) => reject(err));
+	});
+
 export const search_artists_albums = (
 	req: Request,
 	res: Response,
@@ -86,13 +108,20 @@ export const search_artists_albums = (
 ) => {
 	const query = req.params.query;
 
-	Promise.all([searchAlbums(query), searchArtists(query)])
+	const regQuery = new RegExp(escapeRegex(req.params.query), "gi");
+
+	Promise.all([
+		searchAlbums(query),
+		searchArtists(query),
+		searchSongs(regQuery),
+	])
 		.then((data) => {
-			const [albums, artists] = data;
+			const [albums, artists, songs] = data;
 
 			res.json({
 				albums,
 				artists,
+				songs,
 			});
 		})
 		.catch((err) => {
@@ -100,3 +129,7 @@ export const search_artists_albums = (
 			console.log(err);
 		});
 };
+
+function escapeRegex(text: string) {
+	return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+}
