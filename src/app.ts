@@ -1,4 +1,4 @@
-import express, { Application, Response, Request } from "express";
+import express, { Application } from "express";
 import morgan from "morgan";
 import mongoose from "mongoose";
 import cors from "cors";
