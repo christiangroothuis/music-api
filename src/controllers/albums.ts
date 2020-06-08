@@ -55,3 +55,93 @@ export const albums_get_album = (
 			res.status(500).json({ error: err });
 		});
 };
+
+export const albums_create_album = (
+	req: Request,
+	res: Response,
+	next: NextFunction
+) => {
+	const { name, release_date, img, color, artists, tracks } = req.body;
+
+	const album = new Album({
+		_id: new mongoose.Types.ObjectId(),
+		name: name,
+		release_date: release_date,
+		img: img,
+		color: color,
+		artists: artists,
+		tracks: tracks,
+	});
+
+	album
+		.save()
+		.then((result) => {
+			res.status(201).json({
+				message: "Created album successfully",
+				createdProduct: {
+					_id: result._id,
+					name,
+					release_date,
+					img,
+					color,
+					artists,
+					tracks,
+				},
+			});
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({
+				error: err,
+			});
+		});
+};
+
+export const albums_update_album = (
+	req: Request,
+	res: Response,
+	next: NextFunction
+) => {
+	const id = req.params.albumId;
+	const updateOps:any = {};
+
+	for (const ops of req.body) {
+		updateOps[ops.propName] = ops.value;
+	}
+
+	Album.update({ _id: id }, { $set: updateOps })
+		.exec()
+		.then(() => {
+			res.status(200).json({
+				message: "Product updated",
+			});
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({
+				error: err,
+			});
+		});
+};
+
+export const albums_delete_album = (
+	req: Request,
+	res: Response,
+	next: NextFunction
+) => {
+	const id = req.params.albumId;
+
+	Album.remove({ _id: id })
+		.exec()
+		.then(() => {
+			res.status(200).json({
+				message: "Album deleted",
+			});
+		})
+		.catch((err) => {
+			console.log(err);
+			res.status(500).json({
+				error: err,
+			});
+		});
+};

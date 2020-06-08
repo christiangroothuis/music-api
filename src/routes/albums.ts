@@ -9,8 +9,10 @@ router.get("/", AlbumsController.albums_get_all);
 
 router.get("/:albumId", AlbumsController.albums_get_album);
 
-// router.post("/", checkAuth, AlbumsController.albums_create_album);
+router.post("/", checkAuth, AlbumsController.albums_create_album);
 
-// router.delete("/:albumId", checkAuth, AlbumsController.albums_delete_album);
+router.patch("/", checkAuth, AlbumsController.albums_update_album);
+
+router.delete("/:albumId", checkAuth, AlbumsController.albums_delete_album);
 
 export default router;
