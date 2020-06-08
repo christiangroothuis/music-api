@@ -9,7 +9,9 @@ export const notFoundHandler = (
 	const message = "Resource not found";
 
 	response.status(status).json({
-		status,
-		message,
+		error: {
+			status,
+			message,
+		},
 	});
 };

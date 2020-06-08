@@ -11,7 +11,9 @@ export const errorHandler = (
 	const message = error.message || "Server error";
 
 	response.status(status).json({
-		status,
-		message,
+		error: {
+			status,
+			message,
+		},
 	});
 };
