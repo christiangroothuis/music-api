@@ -4,10 +4,10 @@ import checkAuth from "../middleware/check-auth";
 import * as AlbumsController from "../controllers/albums";
 
 const router = express.Router();
-// test
+
 router.get("/", AlbumsController.albums_get_all);
 
-// router.get("/:albumId", AlbumsController.albums_get_album);
+router.get("/:albumId", AlbumsController.albums_get_album);
 
 // router.post("/", checkAuth, AlbumsController.albums_create_album);
 
