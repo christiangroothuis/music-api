@@ -1,8 +1,4 @@
 import { Request, Response, NextFunction } from "express";
-<<<<<<< HEAD
-=======
-import mongoose from "mongoose";
->>>>>>> 2978098b068f76c3436a6a11e4480ede8da0ced4
 
 import Album from "../models/album";
 import Artist from "../models/artist";
@@ -31,11 +27,7 @@ const getRandArtists = () =>
 	});
 
 const getRandAlbums = () =>
-<<<<<<< HEAD
-	new Promise((resolve, reject) => {
-=======
 	new Promise(async (resolve, reject) => {
->>>>>>> 2978098b068f76c3436a6a11e4480ede8da0ced4
 		Album.aggregate([
 			{
 				$sample: {
