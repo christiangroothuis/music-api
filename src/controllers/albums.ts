@@ -20,9 +20,7 @@ export const albums_get_all = (
 		})
 		.catch((err) => {
 			console.log(err);
-			res.status(500).json({
-				error: err,
-			});
+			next(err);
 		});
 };
 
@@ -40,19 +38,26 @@ export const albums_get_album = (
 			select: "name",
 		})
 		.then((doc) => {
-			if (doc) {
+			if (doc)
 				res.status(200).json({
 					album: doc,
 				});
-			} else {
+			else
 				res.status(404).json({
 					message: "No valid entry found for provided ID",
 				});
-			}
 		})
 		.catch((err) => {
-			console.log(err);
-			res.status(500).json({ error: err });
+			if (err.name === "CastError") {
+				res.status(404).json({
+					error: {
+						message: "No valid entry found for provided ID",
+					},
+				});
+			} else {
+				next(err);
+				console.log(err);
+			}
 		});
 };
 
@@ -65,12 +70,12 @@ export const albums_create_album = (
 
 	const album = new Album({
 		_id: new mongoose.Types.ObjectId(),
-		name: name,
-		release_date: release_date,
-		img: img,
-		color: color,
-		artists: artists,
-		tracks: tracks,
+		name,
+		release_date,
+		img,
+		color,
+		artists,
+		tracks,
 	});
 
 	album
@@ -91,9 +96,7 @@ export const albums_create_album = (
 		})
 		.catch((err) => {
 			console.log(err);
-			res.status(500).json({
-				error: err,
-			});
+			next(err);
 		});
 };
 
@@ -103,14 +106,13 @@ export const albums_update_album = (
 	next: NextFunction
 ) => {
 	const id = req.params.albumId;
-	const updateOps:any = {};
+	const updateOps: any = {};
 
 	for (const ops of req.body) {
 		updateOps[ops.propName] = ops.value;
 	}
 
 	Album.update({ _id: id }, { $set: updateOps })
-		.exec()
 		.then(() => {
 			res.status(200).json({
 				message: "Product updated",
@@ -118,9 +120,7 @@ export const albums_update_album = (
 		})
 		.catch((err) => {
 			console.log(err);
-			res.status(500).json({
-				error: err,
-			});
+			next(err);
 		});
 };
 
@@ -132,7 +132,6 @@ export const albums_delete_album = (
 	const id = req.params.albumId;
 
 	Album.remove({ _id: id })
-		.exec()
 		.then(() => {
 			res.status(200).json({
 				message: "Album deleted",
@@ -140,8 +139,6 @@ export const albums_delete_album = (
 		})
 		.catch((err) => {
 			console.log(err);
-			res.status(500).json({
-				error: err,
-			});
+			next(err);
 		});
 };
