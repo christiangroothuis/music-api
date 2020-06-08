@@ -12,6 +12,7 @@ const app: Application = express();
 
 import albums from "./routes/albums";
 import artists from "./routes/artists";
+import home from "./routes/home";
 
 mongoose
 	.connect(process.env.MONGO_URI!, {
@@ -32,6 +33,7 @@ app.use(cors());
 
 app.use("/albums", albums);
 app.use("/artists", artists);
+app.use("/home", home);
 
 app.use(errorHandler);
 app.use(notFoundHandler);
