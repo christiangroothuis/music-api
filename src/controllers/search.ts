@@ -107,8 +107,7 @@ export const search_artists_albums = (
 	next: NextFunction
 ) => {
 	const query = req.params.query;
-
-	const regQuery = new RegExp(escapeRegex(req.params.query), "gi");
+	const regQuery = new RegExp(escapeRegex(query), "gi");
 
 	Promise.all([
 		searchAlbums(query),
