@@ -16,7 +16,7 @@ I gathered the data using a script that
 2. Downloads an avatar image for each artist using the Spotify API and posts the artists to the database
 3. Donwloads the artwork image for each album and gets all the songs's metadata and posts it to the database
 
-The data I'm currently using in Mongo can be found in the json files in de the data directory of this repo.
+The data I'm currently using in Mongo can be found [here](./data).
 
 ## Built With
 
