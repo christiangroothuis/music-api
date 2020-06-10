@@ -9,7 +9,7 @@ export const albums_get_all = (
 	next: NextFunction
 ) => {
 	Album.find()
-		.select("_id name release_date img artists")
+		.select("_id name release_date img artists type" )
 		.sort({ name: 1 })
 		.populate("artists", "name")
 		.then((docs) => {
@@ -32,7 +32,7 @@ export const albums_get_album = (
 	const id = req.params.albumId;
 
 	Album.findById(id)
-		.select("_id name release_date color img artists tracks type")
+		.select("_id name release_date color img artists tracks")
 		.populate({
 			path: "artists tracks.artists",
 			select: "name",
