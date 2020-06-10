@@ -40,7 +40,7 @@ const searchArtists: searchArtists = (query) =>
 			.catch((err) => reject(err));
 	});
 
-const searchAlbums:searchAlbums = (query) =>
+const searchAlbums: searchAlbums = (query) =>
 	new Promise((resolve, reject) => {
 		Album.aggregate([
 			{
@@ -83,7 +83,7 @@ const searchAlbums:searchAlbums = (query) =>
 			.catch((err) => reject(err));
 	});
 
-const searchSongs:searchSongs = (query) =>
+const searchSongs: searchSongs = (query) =>
 	new Promise((resolve, reject) => {
 		Album.find({ "tracks.name": { $regex: query } }, { "tracks.$": 1 })
 			.limit(15)
@@ -98,6 +98,8 @@ const searchSongs:searchSongs = (query) =>
 							img: item.img,
 							name: track.name,
 							artist: track.artists,
+							type: 'song',
+							
 						};
 					})
 				);
@@ -109,7 +111,7 @@ export const search_artists_albums = (
 	req: Request,
 	res: Response,
 	next: NextFunction
-):void => {
+): void => {
 	const query = req.params.query;
 	const regQuery = new RegExp(escapeRegex(query), "gi");
 
