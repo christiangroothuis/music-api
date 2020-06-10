@@ -97,7 +97,7 @@ const searchSongs: searchSongs = (query) =>
 							_id: item._id,
 							img: item.img,
 							name: track.name,
-							artist: track.artists,
+							artists: track.artists,
 							type: 'song',
 							
 						};
