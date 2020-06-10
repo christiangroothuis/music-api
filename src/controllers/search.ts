@@ -3,7 +3,11 @@ import { Request, Response, NextFunction } from "express";
 import Album from "../models/album";
 import Artist from "../models/artist";
 
-const searchArtists = (query: string) =>
+type searchArtists = (query: string) => void;
+type searchAlbums = (query: string) => void;
+type searchSongs = (query: RegExp) => void;
+
+const searchArtists: searchArtists = (query) =>
 	new Promise((resolve, reject) => {
 		Artist.aggregate([
 			{
@@ -36,7 +40,7 @@ const searchArtists = (query: string) =>
 			.catch((err) => reject(err));
 	});
 
-const searchAlbums = (query: string) =>
+const searchAlbums:searchAlbums = (query) =>
 	new Promise((resolve, reject) => {
 		Album.aggregate([
 			{
@@ -79,7 +83,7 @@ const searchAlbums = (query: string) =>
 			.catch((err) => reject(err));
 	});
 
-const searchSongs = (query: RegExp) =>
+const searchSongs:searchSongs = (query) =>
 	new Promise((resolve, reject) => {
 		Album.find({ "tracks.name": { $regex: query } }, { "tracks.$": 1 })
 			.limit(15)
@@ -105,7 +109,7 @@ export const search_artists_albums = (
 	req: Request,
 	res: Response,
 	next: NextFunction
-) => {
+):void => {
 	const query = req.params.query;
 	const regQuery = new RegExp(escapeRegex(query), "gi");
 

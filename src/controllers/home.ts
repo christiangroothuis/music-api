@@ -3,7 +3,10 @@ import { Request, Response, NextFunction } from "express";
 import Album from "../models/album";
 import Artist from "../models/artist";
 
-const getRandArtists = () =>
+type getRandArtists = () => void;
+type getRandAlbums = () => void;
+
+const getRandArtists: getRandArtists = () =>
 	new Promise((resolve, reject) => {
 		Artist.aggregate([
 			{
@@ -20,13 +23,11 @@ const getRandArtists = () =>
 				},
 			},
 		])
-			.then((data) => {
-				resolve(data);
-			})
+			.then((data) => resolve(data))
 			.catch((err) => reject(err));
 	});
 
-const getRandAlbums = () =>
+const getRandAlbums: getRandAlbums = () =>
 	new Promise(async (resolve, reject) => {
 		Album.aggregate([
 			{
@@ -53,9 +54,7 @@ const getRandAlbums = () =>
 				},
 			},
 		])
-			.then((data) => {
-				resolve(data);
-			})
+			.then((data) => resolve(data))
 			.catch((err) => reject(err));
 	});
 
