@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from "express";
-import bcrypt from "bcrypt";
 
 const sendAuthFail = (res: any) => {
 	res.status(401).json({
@@ -13,7 +12,8 @@ const sendAuthFail = (res: any) => {
 export default async (req: Request, res: Response, next: NextFunction) => {
 	try {
 		const key = req.headers.authorization!.split(" ")[1];
-		if (await bcrypt.compare(key, process.env.HASHED_API_KEY!)) {
+
+		if (process.env.API_KEY! === key) {
 			next();
 		} else {
 			sendAuthFail(res);

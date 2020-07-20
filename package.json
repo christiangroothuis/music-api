@@ -12,7 +12,6 @@
   "author": "Christian Groothuis",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -28,7 +27,6 @@
     "@types/mongoose": "^5.7.24",
     "@types/morgan": "^1.9.1",
     "@types/node": "^14.0.13",
-    "inquirer": "^7.2.0",
     "nodemon": "^2.0.4",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.48",
