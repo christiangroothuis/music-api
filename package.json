@@ -4,7 +4,7 @@
   "description": "An API that serves album and artist data for the music-client",
   "main": "server.ts",
   "scripts": {
-    "start": "node dist/server.ts",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc -p ."
   },
