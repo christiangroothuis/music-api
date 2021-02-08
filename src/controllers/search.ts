@@ -86,8 +86,8 @@ const searchAlbums: searchAlbums = (query) =>
 const searchSongs: searchSongs = (query) =>
 	new Promise((resolve, reject) => {
 		Album.find({ "tracks.name": { $regex: query } }, { "tracks.$": 1 })
-			.limit(15)
 			.populate("tracks.artists", "name")
+			.limit(15)
 			.select("img")
 			.then((docs) => {
 				resolve(
@@ -98,8 +98,7 @@ const searchSongs: searchSongs = (query) =>
 							img: item.img,
 							name: track.name,
 							artists: track.artists,
-							type: 'song',
-							
+							type: "song",
 						};
 					})
 				);
@@ -113,20 +112,24 @@ export const search_artists_albums = (
 	next: NextFunction
 ): void => {
 	const query = req.params.query;
-	const regQuery = new RegExp(escapeRegex(query), "gi");
+	// const regQuery = new RegExp(escapeRegex(query), "gi");
 
 	Promise.all([
 		searchAlbums(query),
 		searchArtists(query),
-		searchSongs(regQuery),
+		// searchSongs(regQuery),
 	])
 		.then((data) => {
-			const [albums, artists, songs] = data;
+			const [
+				albums,
+				artists,
+				// songs
+			] = data;
 
 			res.json({
 				albums,
 				artists,
-				songs,
+				// songs,
 			});
 		})
 		.catch((err) => {
